@@ -6,8 +6,10 @@ At any point in time, we have a number of maintained branches consisting of:
   this always contains the latest release, including all publicly available
   security fixes.
 - The [`development`](https://github.com/ARMmbed/mbedtls/tree/development) branch:
-  this is where new features land,
-  as well as bug fixes and security fixes.
+  this is where new features normally land, as well as bug fixes and security
+  fixes.
+- The [`development_2.x`] branch:
+  this is where features and bug-fixes destined for 2.x land.
 - One or more long-time support (LTS) branches:
   these only get bug fixes and security fixes.
 
@@ -48,6 +50,7 @@ The following branches are currently maintained:
 
 - [master](https://github.com/ARMmbed/mbedtls/tree/master)
 - [`development`](https://github.com/ARMmbed/mbedtls/)
+- [`mbedtls-2.x`](https://github.com/ARMmbed/mbedtls/tree/mbedtls-2.x)
 - [`mbedtls-2.16`](https://github.com/ARMmbed/mbedtls/tree/mbedtls-2.16)
  maintained until at least the end of 2021, see
   <https://tls.mbed.org/tech-updates/blog/announcing-lts-branch-mbedtls-2.16>

@@ -5,6 +5,13 @@ Mbed TLS is a C library that implements cryptographic primitives, X.509 certific
 
 Mbed TLS includes a reference implementation of the [PSA Cryptography API](#psa-cryptography-api). This is currently a preview for evaluation purposes only.
 
+Stablility
+----------
+
+The [`development_2.x`] branch will contain work for the next Mbed TLS 2.x release, and will retain a stable API.
+
+The [`development`] branch is where work focused on the up-coming Mbed TLS 3.0 release takes place - this means that (in addition to everything in [`development_2.x`]) it will introduce API incompatibilities and is not recommended for users. New features will normally land here. 
+
 Configuration
 -------------
 
