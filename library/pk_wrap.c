@@ -61,6 +61,8 @@
 #include <limits.h>
 #include <stdint.h>
 
+#define SIZE_MAX       4294967295UL
+
 #if defined(MBEDTLS_RSA_C)
 static int rsa_can_do( mbedtls_pk_type_t type )
 {

@@ -58,6 +58,8 @@
 #include "mbedtls/oid.h"
 #endif
 
+#define SIZE_MAX       4294967295UL
+
 static uint32_t ssl_get_hs_total_len( mbedtls_ssl_context const *ssl );
 
 /*

@@ -50,4 +50,6 @@
 #define MBEDTLS_STATIC_TESTABLE static
 #endif
 
+#define NAME_MAX 32
+
 #endif /* MBEDTLS_LIBRARY_COMMON_H */

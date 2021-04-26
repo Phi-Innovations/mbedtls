@@ -45,6 +45,8 @@
 #endif /* MBEDTLS_PLATFORM_C */
 #endif /* MBEDTLS_SELF_TEST */
 
+#define SIZE_MAX       4294967295UL
+
 /*
  * CTR_DRBG context initialization
  */

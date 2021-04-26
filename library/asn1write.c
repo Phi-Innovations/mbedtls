@@ -34,6 +34,8 @@
 #define mbedtls_free       free
 #endif
 
+#define SIZE_MAX       4294967295UL
+
 int mbedtls_asn1_write_len( unsigned char **p, unsigned char *start, size_t len )
 {
     if( len < 0x80 )
