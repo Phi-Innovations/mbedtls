@@ -43,6 +43,7 @@
 #define MBEDTLS_PKCS1_V15
 #define MBEDTLS_KEY_EXCHANGE_RSA_ENABLED
 #define MBEDTLS_SSL_PROTO_TLS1_1
+#define MBEDTLS_SSL_PROTO_TLS1
 
 /* Modules */
 #define MBEDTLS_AES_C
@@ -77,6 +78,8 @@
 #define MBEDTLS_PEM_PARSE_C
 
 #define MBEDTLS_FS_IO
+
+#define MBEDTLS_DEBUG_C
 
 #include "mbedtls/check_config.h"
 
